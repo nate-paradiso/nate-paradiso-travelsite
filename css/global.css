@@ -15,6 +15,11 @@ ul {
 a {
     text-decoration: none;
 }
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .nav__list--hover:hover {
     color: #DB7A4E;
 
@@ -26,9 +31,12 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     margin: auto;
     padding: 1rem 5rem;
+    position: fixed;
+    width: 70rem;
+    
 }
 .nav__list {
     display: flex;
